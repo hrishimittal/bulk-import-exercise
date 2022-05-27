@@ -1,4 +1,4 @@
-[![Ruby on Rails CI](https://github.com/ryantownsend/bulk-import-exercise/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/ryantownsend/bulk-import-exercise/actions/workflows/rubyonrails.yml)
+[![Ruby on Rails CI](https://github.com/hrishimittal/bulk-import-exercise/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/hrishimittal/bulk-import-exercise/actions/workflows/rubyonrails.yml)
 
 # Bulk Import Exercise
 
@@ -8,7 +8,7 @@ The initial implementation is rudimentary in that it works, but it is not remote
 
 There are functional tests covering the behaviour to ensure your changes do not break anything and performance tests to benchmark the speed at which imports occur and the memory utilised. These tests are configured to trigger on Github Actions, therefore it should be straight-forward to clone/fork the repository, make your changes and measure the outcome.
 
-If you open one of the [workflow runs in Github Actions](https://github.com/ryantownsend/bulk-import-exercise/actions/workflows/rubyonrails.yml), you'll see there's a summary of the performance and memory consumption of the API.
+If you open one of the [workflow runs in Github Actions](https://github.com/hrishimittal/bulk-import-exercise/actions/workflows/rubyonrails.yml), you'll see there's a summary of the performance and memory consumption of the API.
 
 If you'd prefer to run the test suite locally, you can do so with RSpec (`bundle exec rspec`) and the performance and memory summary will be output to `tmp/summary.md` instead.
 
